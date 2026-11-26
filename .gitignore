@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Node / Vite
+apps/web/node_modules/
+apps/web/dist/
+apps/web/*.tsbuildinfo
+apps/web/vite.config.js
+apps/web/vite.config.d.ts
+npm-debug.log*
+
+# Runtime data (SQLite + converted models)
+data/
+
+# Test output
+artifacts/
+report/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
